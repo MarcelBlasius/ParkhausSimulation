@@ -31,6 +31,7 @@ class ParkhauskundeTests {
 		p.einfahren();
 		p.ausfahren();
 		assertEquals(-1, p.getEinfahrtszeit());
+		
 	}
 
 }
