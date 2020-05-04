@@ -2,5 +2,11 @@ package produktionscode;
 
 public interface ParkhauskundeIF {
 	
-	public void setEinfahrtszeit(long h);
+	public long getEinfahrtszeit();
+	
+	public void einfahren();
+	
+	public void ausfahren();
+	
+	public String getParkplatz();
 }
