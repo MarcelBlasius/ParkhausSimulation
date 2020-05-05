@@ -4,6 +4,7 @@ import java.time.Instant;
 
 public abstract class Parkhauskunde implements ParkhauskundeIF{
 	
+	
 	private Instant einfahrtszeit;
 	
 	public Parkhauskunde() {
