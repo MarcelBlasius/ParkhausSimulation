@@ -1,8 +1,10 @@
 package produktionscode;
 
+import java.time.Instant;
+
 public interface ParkhauskundeIF {
 	
-	public long getEinfahrtszeit();
+	public Instant getEinfahrtszeit();
 	
 	public void einfahren();
 	

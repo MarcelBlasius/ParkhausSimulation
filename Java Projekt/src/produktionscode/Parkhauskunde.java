@@ -1,25 +1,26 @@
 package produktionscode;
 
+import java.time.Instant;
+
 public abstract class Parkhauskunde implements ParkhauskundeIF{
 	
-	private long einfahrtszeit = -1;
+	private Instant einfahrtszeit;
 	
 	public Parkhauskunde() {
 	}
 	
 	@Override
-	public long getEinfahrtszeit() {
+	public Instant getEinfahrtszeit() {
 		return einfahrtszeit;
 	}
 
 	@Override
 	public void einfahren() {
-		einfahrtszeit = System.currentTimeMillis();
+		this.einfahrtszeit = Instant.now();
 	}
-
 	@Override
 	public void ausfahren() {
-		einfahrtszeit = -1;
+		einfahrtszeit = null;
 	}
 
 	@Override
