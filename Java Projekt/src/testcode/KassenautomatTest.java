@@ -18,6 +18,7 @@ class KassenautomatIFTest {
 	}
 	
 	
+	
 	@Test
 	@DisplayName("Preis kann nachträglich angepasst werden")
 	void testSetPrize() {
