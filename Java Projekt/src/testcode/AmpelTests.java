@@ -1,10 +1,9 @@
 package testcode;
 import static org.junit.jupiter.api.Assertions.*;
-<<<<<<< HEAD
+
 
 import org.junit.jupiter.api.Assertions;
-=======
->>>>>>> c8a8b206650e0ddaf3420dc61e90834b2c7c3441
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

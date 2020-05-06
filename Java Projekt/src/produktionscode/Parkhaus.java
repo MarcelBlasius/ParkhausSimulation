@@ -5,10 +5,10 @@ public class Parkhaus implements ParkhausIF {
 	private int freieParkplaetzeFrauen;
 	private int freieParkplaetzeBehinderte;
 	
-	public Parkhaus(int freieParkplaetzeKunde, int freieParkplaetzeFrauen,int freieParkplaetzeBehinderte){
+	public Parkhaus(int freieParkplaetzeKunden, int freieParkplaetzeFrauen,int freieParkplaetzeBehinderte){
 		this.freieParkplaetzeFrauen= freieParkplaetzeFrauen;
 		this.freieParkplaetzeBehinderte=freieParkplaetzeBehinderte;
-		this.freieParkplaetzeKunden=freieParkplaetzeKunde;
+		this.freieParkplaetzeKunden=freieParkplaetzeKunden;
 	}
 	public void ParkhausAendern(int freieParkplaetzeKunden, int freieParkplaetzeFrauen,int freieParkplaetzeBehinderte){
 		this.freieParkplaetzeFrauen= freieParkplaetzeFrauen;
