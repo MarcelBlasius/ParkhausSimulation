@@ -1,7 +1,5 @@
 package produktionscode;
 
-import uebung2.ParkhausIF;
-
 public class Parkhaus implements ParkhausIF {
 	private int freieParkplaetzeKunde;
 	private int freieParkplaetzeFrauen;

@@ -1,7 +1,5 @@
 package produktionscode;
 
-import uebung2.Parkhaus;
-
 public class Ampel implements AmpelIF{
 	Parkhaus Haus;
 	private String Farbe = "Rot";
