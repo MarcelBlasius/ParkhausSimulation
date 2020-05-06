@@ -1,6 +1,7 @@
 package testcode;
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -20,7 +21,7 @@ public class AmpelTests {
 	@Test
 	@DisplayName("Farbe wird richtig ausgegeben")
 	void TestgetFarbe() {
-		assertEquals(A.getFarbe(P),"Grün");
+		assertEquals(A.getFarbe(P),"Grï¿½n");
 	}
 	@Test
 	@DisplayName("Grenze wird richtig geaendert")

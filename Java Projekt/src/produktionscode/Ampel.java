@@ -3,12 +3,12 @@ package produktionscode;
 public class Ampel implements AmpelIF{
 	Parkhaus Haus;
 	private String Farbe = "Rot";
-	public  Ampel(int Gelb,int Grün ,Parkhaus Haus) throws Exception {
+	public  Ampel(int Gelb,int Gruen ,Parkhaus Haus) throws Exception {
 		this.Haus= Haus;
-		int tmp= Haus.getfreieParkplaetzeKunde();
-		if(Grün>=Gelb) {
-			if(Grün <= tmp) {
-				Farbe = "Grün";
+		int tmp= Haus.getfreieParkplaetzeKunden();
+		if(Gruen>=Gelb) {
+			if(Gruen <= tmp) {
+				Farbe = "Grï¿½n";
 			}else {
 				if(Gelb <=tmp) {
 					Farbe ="Gelb";
@@ -20,11 +20,11 @@ public class Ampel implements AmpelIF{
 			throw new Exception(); 
 		}
 	}
-	public void SetFarbeGrenze(int Gelb,int Grün  ) throws Exception {
-		int tmp= Haus.getfreieParkplaetzeKunde();
-		if(Grün>=Gelb) {
-			if(Grün <= tmp) {
-				Farbe = "Grün";
+	public void SetFarbeGrenze(int Gelb,int Gruen  ) throws Exception {
+		int tmp= Haus.getfreieParkplaetzeKunden();
+		if(Gruen>=Gelb) {
+			if(Gruen <= tmp) {
+				Farbe = "Grï¿½n";
 			}else {
 				if(Gelb <=tmp) {
 					Farbe ="Gelb";

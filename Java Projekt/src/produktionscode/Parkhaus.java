@@ -1,41 +1,39 @@
 package produktionscode;
 
 public class Parkhaus implements ParkhausIF {
-	private int freieParkplaetzeKunde;
+	private int freieParkplaetzeKunden;
 	private int freieParkplaetzeFrauen;
-	private int freieParkplaetzeBehinderten;
+	private int freieParkplaetzeBehinderte;
 	
-	public Parkhaus(int freieParkplaetzeKunde, int freieParkplaetzeFrauen,int freieParkplaetzeBehinderten){
+	public Parkhaus(int freieParkplaetzeKunde, int freieParkplaetzeFrauen,int freieParkplaetzeBehinderte){
 		this.freieParkplaetzeFrauen= freieParkplaetzeFrauen;
-		this.freieParkplaetzeBehinderten=freieParkplaetzeBehinderten;
-		this.freieParkplaetzeKunde=freieParkplaetzeKunde;
+		this.freieParkplaetzeBehinderte=freieParkplaetzeBehinderte;
+		this.freieParkplaetzeKunden=freieParkplaetzeKunde;
 	}
-	public void ParkhausAendern(int freieParkplaetzeKunde, int freieParkplaetzeFrauen,int freieParkplaetzeBehinderten){
+	public void ParkhausAendern(int freieParkplaetzeKunden, int freieParkplaetzeFrauen,int freieParkplaetzeBehinderte){
 		this.freieParkplaetzeFrauen= freieParkplaetzeFrauen;
-		this.freieParkplaetzeBehinderten=freieParkplaetzeBehinderten;
-		this.freieParkplaetzeKunde=freieParkplaetzeKunde;
+		this.freieParkplaetzeBehinderte=freieParkplaetzeBehinderte;
+		this.freieParkplaetzeKunden=freieParkplaetzeKunden;
 	}
-	@Override
-	public int getfreieParkplaetzeKunde() {
-		return freieParkplaetzeKunde;
+	public int getfreieParkplaetzeKunden() {
+		return freieParkplaetzeKunden;
 	}
-	@Override
 	public int getfreieParkplaetzeFrauen() {
 		return freieParkplaetzeFrauen;
 	}
 
-	@Override
-	public int getfreieParkplaetzeBehinderten() {
-		return freieParkplaetzeBehinderten;
+	public int getfreieParkplaetzeBehinderte() {
+		return freieParkplaetzeBehinderte;
 	}
 	
-	@Override
-	public void setfreieParkplaetzeKunde(int freieParkplaetzeKunde) {
-		this.freieParkplaetzeKunde=freieParkplaetzeKunde;
+	public void setfreieParkplaetzeKunden(int freieParkplaetzeKunden) {
+		this.freieParkplaetzeKunden=freieParkplaetzeKunden;
 	}
-	@Override
 	public void setfreieParkplaetzeFrauen(int freieParkplaetzeFrauen) {
 		this.freieParkplaetzeFrauen= freieParkplaetzeFrauen;
 	}
-
+	public void setfreieParkplaetzeBehinderte(int freieParkplaetzeBehinderte) {
+		this.freieParkplaetzeBehinderte= freieParkplaetzeBehinderte;
+		
+	}
 }

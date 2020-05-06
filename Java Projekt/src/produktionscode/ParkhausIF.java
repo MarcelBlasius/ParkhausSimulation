@@ -2,10 +2,10 @@ package produktionscode;
 
 public interface ParkhausIF {
 	
-	public int getfreieParkplaetzeKunde();
+	public int getfreieParkplaetzeKunden();
 	public int getfreieParkplaetzeFrauen();
-	public int getfreieParkplaetzeBehinderten();
-	public void setfreieParkplaetzeKunde(int freieParkplaetzeKunde);
+	public int getfreieParkplaetzeBehinderte();
+	public void setfreieParkplaetzeKunden(int freieParkplaetzeKunden);
 	public void setfreieParkplaetzeFrauen(int freieParkplaetzeFrauen);
-	public void setfreieParkplaetzeBehinderten(int freieParkplaetzeBehinderten);
+	public void setfreieParkplaetzeBehinderte(int freieParkplaetzeBehinderte);
 }
